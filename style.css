@@ -304,4 +304,27 @@ button:hover:after {
   .container{
     grid-template-columns: 1fr;
   }
+
+  input[type="radio"]{
+    width:5%;
+    height: 2%;
+  }
+  .slide-images{
+    width: 90%;
+  }
+
+  .nomeTipo{
+    margin-left: 10%;
+  }
+  .text {
+    margin: 10%;
+}
+  .slideProduto{
+    margin: 2% 20%;
+  }
+  button{
+    text-align: center;
+    font-size: 18px;
+    width: 40%;
+  }
 }
