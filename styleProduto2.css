@@ -25,9 +25,13 @@ body{
     min-height: 25vh;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
+    text-align: center;
+    align-items: start;
   
 }
-
+.colunas{
+    margin-top: 10%;
+}
 .img-produto{
     margin-top: 2%;
     width: 60%;
@@ -75,6 +79,7 @@ body{
 
 .divFrete{
     margin-bottom: 2%;
+    margin-top: 15%;
 }
 button {
     
@@ -99,4 +104,11 @@ button {
     margin-left: 1%;
     margin-bottom: -2%;
     width: 10%;
+  }
+
+  @media only screen and (max-width: 430px) {
+    .containerProduto{
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
   }
