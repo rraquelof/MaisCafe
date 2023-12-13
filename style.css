@@ -18,7 +18,7 @@ body{
   display: grid;
   min-height: 100vh;
   grid-template-columns: 1fr;
-  grid-template-rows: 13rem 54% 4% 29% 11% 3%;
+  grid-template-rows: 13rem 54% 4% 29% 13% 3%;
 
 }
 ul {
@@ -32,7 +32,7 @@ a {
   font-family: sans-serif;
 }
 
-a:hover {
+.linksMenu:hover {
   background: rgba(255, 255, 255, 0.05);
   border: #EDE3C9 solid 1px;
 }
@@ -230,7 +230,7 @@ input[type="radio"]:hover {
   color: #fff;
   text-align: center;
   font-size: 18px;
-  width: 30%;
+  width: 35%;
   height: 6vh;
   transition: all 0.5s;
   cursor: pointer;
@@ -277,10 +277,11 @@ button:hover{
   color: #EDE3C9;
 }
 .img-icone{
-  width: 5%;
+  width: 8%;
   margin: 5%;
-  cursor: pointer;
 }
+
+
  #footer {
   overflow: hidden;
   display: flex;
@@ -319,17 +320,17 @@ button:hover{
 
 100%{margin-left:0%;}
 }
-ul{
+#menu{
   display: flex;
   list-style: none;
 }
-#myCheck{
-  display: none;
+.text-contato{
+  color: #EDE3C9;
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 430px) {
   #container{
     grid-template-columns: 1fr;
-    grid-template-rows: 13rem 59% 6% 29% 11% 3%;
+    grid-template-rows: 13rem 59% 6% 29% 12% 3%;
 
   }
   .container{
@@ -355,7 +356,7 @@ ul{
   }
   .btn-comprar{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     width: 50%;
   }
   .icones{

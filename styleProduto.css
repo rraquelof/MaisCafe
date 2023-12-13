@@ -111,4 +111,8 @@ button {
       grid-template-columns: 1fr;
       text-align: left;
     }
+    .img-carrinho{
+      float: left;
+      width: 10%;
+  }
   }
