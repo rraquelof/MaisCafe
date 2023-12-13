@@ -121,19 +121,20 @@ hr {
 
 .nomeTipo{
   font-size: 20px;
-  text-align: justify;
-  margin-left: 20%;
-  margin-bottom: 3%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-bottom: 3%;
 }
 .text{
   font-size: 18px;
+  margin-right: 20%;
+  margin-left: 35%;
 }
 .slide-images{
   float: left;
   width: 30%;
+  margin-left: 3%;
   text-align: justify;
-  margin-left: 10%;
-  margin-right: 5%;
   border-radius: 5%;
 }
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
@@ -325,24 +326,30 @@ ul{
 #myCheck{
   display: none;
 }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 440px) {
+  #container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 13rem 59% 6% 29% 11% 3%;
+
+  }
   .container{
     grid-template-columns: 1fr;
+
   }
   
   input[type="radio"]{
     width: 4%;
   }
   .slide-images{
-    width: 90%;
+    width: 95%;
   }
-
+  .text{
+    margin: 0;
+  }
   .nomeTipo{
     margin-left: 10%;
   }
-  .text {
-    margin: 10%;
-}
+  
   .slideProduto{
     margin: 2% 20%;
   }
@@ -365,7 +372,6 @@ ul{
     width: 100%;
     display: block;
     position: absolute;
-    width: 100%;
     top: 100px;
     right: 0px;
     background: #643333;
