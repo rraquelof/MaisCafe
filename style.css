@@ -118,7 +118,6 @@ hr {
 
 } 
 
-
 .nomeTipo{
   font-size: 20px;
     text-align: justify;
@@ -157,7 +156,6 @@ input[type="radio"]:hover {
   
 }
 
-
 .slides-list{
   --selected-item: 0;
   --total-items: 5;
@@ -173,8 +171,6 @@ input[type="radio"]:hover {
   grid-auto-flow: column;
   grid-auto-columns: 1fr ;
 }
-
-
 
 .slides-list-loja{
   --selected-item: 0;
@@ -202,18 +198,16 @@ input[type="radio"]:hover {
 
 .slideProduto{
   background-color: coral;
-  margin: 2% 32%;
+  margin: 2% 35%;
   border-radius: 5%;
 
 } 
-
 
 .descricaoProduto{
   font-size: 18px;
   text-align: justify;
   margin: 3% 5%;
 }
-
 
 .btn-comprar{
   width: 25%;
@@ -226,7 +220,7 @@ input[type="radio"]:hover {
 .btn-comprar {
   border-radius: 5%;
 
-  background-color: #5ca1e1;
+  background-color: #5c7be1;
   color: #fff;
   text-align: center;
   font-size: 18px;
@@ -281,7 +275,6 @@ button:hover{
   margin: 5%;
 }
 
-
  #footer {
   overflow: hidden;
   display: flex;
@@ -294,31 +287,6 @@ button:hover{
   width: 80%;
   margin: 0 auto;
   display: flex;
-}
-.scroller {
-  display: flex;
-  width: 100%;
-  animation: slidy 6000ms infinite;
-}
-.wraper .scroller img {
-  min-width: calc(100% / 3);
-  flex: 1;
-  padding: 0 .5rem;
-}
-@keyframes slidy {
- 0%{margin-left:0%;}
-20%{margin-left:0%;}
-
-25%{margin-left:-100%;}
-45%{margin-left:-100%;}
-
-50%{margin-left:-200%;}
-70%{margin-left:-200%;}
-
-75%{margin-left:-100%;}
-95%{margin-left:-100%;}
-
-100%{margin-left:0%;}
 }
 #menu{
   display: flex;
@@ -427,5 +395,4 @@ button:hover{
     transform: rotate(-135deg);
     top: -7px;
   }
-  
 }
